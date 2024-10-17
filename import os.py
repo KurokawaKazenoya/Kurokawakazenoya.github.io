@@ -1,7 +1,7 @@
 import os
 
 # 设置要查找的根目录
-directory = r"D:\Canvas\Kurokawakazenoya.github.io\ENG4U_content"
+directory = r"D:\Canvas\Kurokawakazenoya.github.io\OLC4O_content"
 
 # 定义替换的映射规则
 replace_map = {
@@ -13,7 +13,10 @@ replace_map = {
     '/shared/LCS_HTML_Templates/Kanata_Academy_Template_v4.1.02/_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css': './all.min.css',
     '/shared/LCS_HTML_Templates/Kanata_Academy_Template_v4.1.02/_assets/css/theme.min.css': './theme.min.css',
     '/shared/LCS_HTML_Templates/Kanata_Academy_Template_v4.1.02/_assets/css/custom.css': './custom.css',
-    '/content/enforced/7234-DemoMHF4U/EVA%20SCHOOL1.png': './EVA%20SCHOOL1.png'
+    '/content/enforced/7234-DemoMHF4U/EVA%20SCHOOL1.png': './EVA%20SCHOOL1.png',
+    'https://s.brightspace.com/lib/fonts/0.5.0/fonts.css': './front.css'
+    
+    
 }
 
 # 批量替换绝对路径
